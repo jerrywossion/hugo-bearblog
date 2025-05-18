@@ -18,9 +18,8 @@
     {{ end }}
   </p>
 
-  <hr class="mt-20 mb-10 border-neutral-300" />
-
   {{ if .Param "remark42.enabled" }}
+    <hr class="mt-20 mb-10 border-neutral-300" />
     {{ partial "remark42.html" . }}
   {{ end }}
 {{ end }}
