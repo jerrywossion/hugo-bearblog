@@ -1,4 +1,6 @@
-<a href="{{ "" | relURL }}" class="title">
-  <h2>{{ .Site.Title }}</h2>
-</a>
-<nav>{{- partial "nav.html" . -}}</nav>
+<div class="flex justify-between items-center my-6">
+  <a href="{{ "" | relURL }}" class="text-3xl font-bold font-serif">
+    <h2>{{ .Site.Title }}</h2>
+  </a>
+  <nav>{{- partial "nav.html" . -}}</nav>
+</div>

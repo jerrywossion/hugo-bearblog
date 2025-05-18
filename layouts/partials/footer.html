@@ -1,1 +1,6 @@
-{{ if not (.Param "hideMadeWithLine") }}Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>{{ end }}
+<div class="flex flex-col items-center my-4">
+  <p class="text-sm text-gray-400">
+    Powered by <a href="https://gohugo.io/" class="text-sky-600">HUGO</a>, <a href="https://github.com/janraasch/hugo-bearblog" class="text-sky-600">hugo-bearblog</a> and <a href="https://remark42.com/" class="text-sky-600">Remark42</a>
+  </p>
+  <p class="text-sm text-gray-400">{{ .Site.Copyright }}</p>
+</div>
