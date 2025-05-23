@@ -11,7 +11,7 @@
       </p>
     {{ end }}
   {{ end }}
-  <content class="prose"> {{ .Content }} </content>
+  <content> {{ .Content }} </content>
   <p>
     {{ range (.GetTerms "tags") }}
       <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
